@@ -1,5 +1,5 @@
-import { HealthCard } from './components/HealthCard'
 import './App.css'
+import ChatSection from './components/Chat/ChatSection'
 
 export default function App() {
   return (
@@ -8,7 +8,7 @@ export default function App() {
         <h1>Starter App</h1>
         <p className="muted">React + FastAPI + MongoDB</p>
       </header>
-      <HealthCard />
+      <ChatSection />
     </main>
   )
 }
